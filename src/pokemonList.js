@@ -23,8 +23,8 @@ class ListItems extends React.Component {
             this.setState({
               isLoaded: true,
               arr :[...this.state.arr,{
-              name: result.name,
-              type : result.types.map((type) => type.type.name).join(', '),
+              name: (result.name).toUpperCase(),
+              type : "Type : " +result.types.map((type) => type.type.name).join(', '),
               id : "#"+result.id,
               height: result.height,
               weight: result.weight,
