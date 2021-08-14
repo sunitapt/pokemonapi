@@ -19,7 +19,7 @@ class ListItems extends React.Component {
       fetch(url)
         .then(res => res.json())
         .then((result) => {
-            console.log(result);          
+            // console.log(result);          
             this.setState({
               isLoaded: true,
               arr :[...this.state.arr,{
