@@ -84,7 +84,7 @@ export default function Grid(props) {
   // console.log(props);
 return (    
     <div className="">
-    <ul id="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-12">
+    {/* // <ul id="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-12"> */}
       {/* {people.map((person) => ( */}
         <li key= {props.id}
           className="col-span-1 flex flex-col text-cente rounded-lg shadow divide-y divide-gray-200 bg-yellow-50"
@@ -120,8 +120,8 @@ return (
         </li>
       {/* // )) */}
       {/* } */}
-    </ul>
-    </div>
+    {/* </ul> */}
+     </div>
   )
   
 }
